@@ -1,0 +1,14 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url('backgroundcoffee.jpg');
+    background-size: cover; /* Adjust the size to cover the entire container */
+    background-position: center; /* Center the image horizontally and vertically */
+    height: 100vh; /* Make the container take the full viewport height */
+    margin: 10% auto; /* Add 10% margin on all sides to show background color */
+    background-color: #ebebeb; /* Background color to show on the sides */
+}
