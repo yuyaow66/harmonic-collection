@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    background-image: url('backgroundcoffee.jpg');
+    background-image: url('mainpagebackgroundpic.jpg');
     background-size: cover; /* Adjust the size to cover the entire container */
     background-position: center; /* Center the image horizontally and vertically */
     height: 100vh; /* Make the container take the full viewport height */
