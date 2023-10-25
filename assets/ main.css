@@ -82,3 +82,29 @@ img.bg {
   .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+  .wrapper {
+    display: grid;
+    grid-template-columns:
+      1fr
+      min(65ch, 100%)
+      1fr;
+  }
+  .wrapper > * {
+    grid-column: 2;
+  }
+  .full-bleed {
+    width: 100%;
+    grid-column: 1 / 4;
+  }
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
