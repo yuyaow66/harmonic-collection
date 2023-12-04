@@ -1,0 +1,11 @@
+#follower{
+    background: url(pixel-png-clipart.png);
+    width: 600px;
+    height: 550px;
+    top: 0px;
+    position: fixed;
+}
+
+body{
+    background:url(back2.gif) ;
+}
