@@ -1,148 +1,150 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {margin:0;}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.icon-bar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-
-.icon-bar a {
-  float: left;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.active {
-  background-color: #04AA6D;
-}
-</style>
-<body>
-
-<div class="icon-bar">
-  <a class="active" href="https://yuyaow66.github.io/harmonic-collection/index.html"><i class="fa fa-home"></i></a> 
-  
-</div>
-
-</body>
-</html> 
-
-   
-
-
- <!DOCTYPE html>
-<html lang="en">
 <head>
-<title>Think Coffee</title>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
-}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;}
+* {box-sizing: border-box;}
 
-body {
-  font-family: subway ticker;
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(back2.gif);
+  background-size: cover;
 }
 
-/* Style the header */
-header {
-  background-color: #a6f2a0;
-  padding: 20px;
-  text-align: center;
-  font-size: 35px;
-  color: rgb(63, 115, 246);
+#navbar {
+  overflow: hidden;
+  background-color: #7b42ca;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
 }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
+#navbar a {
   float: left;
-  width: 20%;
-  height: 1000px; /* Don't forget the semicolon here */
-  background-color:rgb(245, 177, 242) ;
-  padding: 20px;
+  color: rgb(215, 208, 197);
+  text-align: center;
+  font-family: Crotah free version;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
 }
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;}
 
-article {
+#navbar a:hover {
+  background-color: #311c02;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
   float: right;
-  padding: 20px;
-  width: 80%;
-  background: url(saltwater.jpg);
-
-  height: 1000px; /* only for demonstration, should be removed */
 }
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
   }
 }
 </style>
 </head>
 <body>
 
-<header>
-  <h2>Salt Water Cafe</h2>
-</header>
+<div id="navbar">
+  <a href="#default" id="logo"><i>Americano</i></a>
+  <div id="navbar-right">
+    <a class="active" href="https://yuyaow66.github.io/harmonic-collection/index.html">Home</a>
+   
+  </div>
+</div>
 
-<section>
-  <nav>
-    <ul>
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+  <h1><p style="color:aliceblue;font-family: Creamy Sugar;">What Is An Americano</p></h1>
+    <p style=" color:aliceblue">A longtime coffee drinker bravely stepping into a Starbucks for the first time – and completely intimidated by the menu – might figure that ordering a Caffè Americano would be a safe introduction to the world of upscale coffee.
+
+        Oops.
+        
+        They’d quickly learn that the Americano isn’t just “regular coffee” with a fancy name.
+        
+        In fact, it’s not even drip coffee at all, even though it tastes something like the morning cup of coffee that Mabel or Sam dishes out at the local diner, or the stuff your coffee maker has waiting for you when you stumble out of bed in the morning.
+        
+        So what is an Americano? A caffè Americano is espresso topped with hot water, and it can be made in several different ways.
+        
+        There’s a good reason why this popular espresso drink has an “American name,” though. To understand it, we have to go back about 80 years.</p>
+    <h2 style="color:aliceblue;font-family: Creamy Sugar;">The Origins of Caffè Americano</h2>
+    <p style="color:aliceblue">Most accounts tie the creation of this coffee drink to World War II. In truth, the name may have originated even earlier; in the late 1920s, the author Somerset Maugham wrote about characters drinking an “americano,” although he never offered details on how it was made.
+        
+        The most credible story describing the creation and naming of caffè Americano, however, dates back to World War II, when coffee was so important (and necessary) to the troops that the average serviceman was going through more than 32 pounds of coffee each year.
+        
+        The Army had to grind, package and ship tons of coffee to the European theater – but often, there still wasn’t enough to go around.
+        
+        American soldiers stationed in Italy and searching for their coffee fix supposedly hated the local espresso so much that they found a way to make it less bitter and more palatable: they diluted the espresso with hot water to make the taste more familiar. Understandably, the locals called that drink “caffè Americano.”
+        
+        The name, and the drink itself, stuck and grew more popular over time.</p>
+<h3 style="color:aliceblue;font-family: Creamy Sugar">To make a great Americano, you must start with great espresso.</h3>
+
+<p style="color:aliceblue">You probably know that there’s no such thing as “espresso beans.” Espresso is made from the same coffee beans that are used to make standard drip coffee. The differences are created by the roast, the blend and the brewing process.
     
-      <li><a href="index2.html">images</a></li>
-     
-    </ul>
-  </nav>
-  
-  <article>
-    <h1><p style="color: #ffffff"></h1>
-    <p style="color: #ffffff"><i> </p>
+    Let’s talk process first.
+    
+    Drip coffee is brewed just as its name describes, with hot water slowly dripped through coffee grounds. When espresso is made, though, a small amount of almost-boiling water is forced through the finely-ground coffee at high pressure. The end result is a thicker, stronger, dark brown coffee which is produced in a matter of seconds, not minutes.
+    
+    Now, let’s talk roast.
+    
+    Espresso is normally made from dark-roasted beans, because they create a fuller body and less acidity. They also create – and this is important – a thicker crema at the top.
+    
+    That’s because of the oil that builds up on the surface of dark roast beans; it’s forced out of the beans by the hot water and steam, forming an oily, rich, creamy layer of foam that rises to the top of a well-made espresso. 
+    
+    Finally, the blend. Most coffee drinkers are aware that Arabica beans produce coffee that’s cleaner, sweeter and softer, with good acidity. Robusta beans aren‘t usually used to make high-quality coffee, because they produce harsher coffee with more bitterness and a lot more caffeine.
+    
+    The exception is for espresso. Many espresso blends, particularly in America, combine Arabica beans with a small amount of Robusta beans in order to give the coffee more body and more caffeine.
+    
+    Mixing them isn’t required; lots of people swear by espresso made from 100% Arabica beans. But Robusta beans are often used, and many aficionados who love a good espresso swear by the powerful product of the Arabica/Robusta combination.
+    
+    Most important of all is equipment and technique.
+    
+    The right espresso machine, the proper amount and distribution of grounds, and the right temperature and amount of water used to extract the brew all play huge roles in creating barista-quality espresso. To get to that point requires experience – or finding the right coffee shop.
+    
+    <p style="color: white"><a href="https://drinksupercoffee.com/blog/nutrition/what-is-an-americano/">resource website</a>
+    </p>
+</div>
 
-  </article>
-</section>
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
 
-<footer>
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+</script>
 
-</footer>
-
-
+</body>
+</html>

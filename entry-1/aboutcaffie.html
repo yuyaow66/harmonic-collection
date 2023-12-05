@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  background-size: cover;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #75460d;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: rgb(215, 208, 197);
+  text-align: center;
+  font-family: Crotah free version;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #311c02;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="#default" id="logo"><i>About Caffeine</i></a>
+  <div id="navbar-right">
+    <a class="active" href="https://yuyaow66.github.io/harmonic-collection/index.html">Home</a>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+
+    
+    
+      <p style="color: white;">Caffeine is naturally found in the leaves and fruits of some plants. It is in coffee, black and green tea, cocoa, cola soft drinks and energy drinks. It may also be in chocolate bars, energy bars and some non-prescription medications, such as cough syrup and slimming tablets. Guarana (a popular additive in energy drinks) is also a natural source of caffeine.
+
+        Caffeine is a stimulant, which means it increases activity in your brain and nervous system. It also increases the circulation of chemicals such as cortisol and adrenaline in the body.
+        
+        In small doses, caffeine can make you feel refreshed and focused. In large doses, caffeine can make you feel anxious and have difficulty sleeping.
+        
+        Like many other drugs, it’s possible to develop a tolerance to caffeine, which means you need bigger and bigger doses to achieve the same effect.
+        
+         </p> 
+         <p style="color: white;">Caffeine is well absorbed by the body, and the short-term effects are usually experienced between 5 and 30 minutes after having it. These effects can include increased breathing and heart rate, and increased mental alertness and physical energy. Depending on the individual, these effects can last up to 12 hours.</p>
+      <p style="color: white;">How you react to caffeine depends on your body mass, health and metabolism. It also depends on whether your body is used to getting regular doses of caffeine and how much you have in one serving. Research suggests that 400mg per day or less is an acceptable dose of caffeine for the general population.</p>
+      <p style="color: white;">Like many other drugs, it’s possible to build up a tolerance to caffeine. This means you become used to its effects on your body and need to take larger amounts to achieve the same results. Over time, you may become physically and psychologically dependent on caffeine to function effectively.</p>
+
+    </div>
+      
+  
+  
+</section>
+
+<script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar").style.padding = "30px 10px";
+      document.getElementById("logo").style.fontSize = "25px";
+    } else {
+      document.getElementById("navbar").style.padding = "80px 10px";
+      document.getElementById("logo").style.fontSize = "35px";
+    }
+  }
+  </script>
+
+
+
+</body>
+</html>

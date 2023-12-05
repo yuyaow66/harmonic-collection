@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  background-size: cover;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #75460d;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: rgb(215, 208, 197);
+  text-align: center;
+  font-family: Crotah free version;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #311c02;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="#default" id="logo"><i>Why Do People Drink Coffee</i></a>
+  <div id="navbar-right">
+    <a class="active" href="https://yuyaow66.github.io/harmonic-collection/index.html">Home</a>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+
+    <h1 style="font-family: Crotah free version;color: white;">Drinking Coffee Can Be a Comforting Routine</h1>
+    
+      <p style="color: white;">For many people, coffee is the first beverage consumed in the morning and can be relied upon for energy to help them get through the day. For some, the smell and taste of coffee are comforting. If you are deprived of sleep, having a cup of your favorite brew can help you feel more relaxed and ready to be productive. If you live in a cold climate, having a hot cup of coffee can be the ultimate remedy to warm the soul. If you live in a hot climate, you have the option of having your favorite coffee drink iced. Since there are a vast variety of coffee flavors, roasts, and add-ins available on the market, many people can customize their drink to match their exact preferences. </p> 
+         <h2 style="font-family: Crotah free version;color: white;">Coffee Culture Fosters Social Interaction</p>
+      <p style="color: white;">Similar to social alcohol drinking at a bar, people enjoy gathering at coffee shops to meet with friends or to conduct a business meeting. Many coffee shops promote a relaxing environment with inviting décor, music performances, and more. Dating back centuries, coffee shops were and continue to be a venue where people can gather to talk, write, read, work, entertain one another, or to simply pass the time. Need to catch up with your best friend? Have a crush on a special someone? Meeting up for coffee is a great option.
+
+        As you can see, there are various reasons why people drink coffee, so go ahead and enjoy your daily dose of java. Use it to be more productive at home or work, to warm up on a cold day, or as a means to meet up with a friend.</p>
+      <h3 style="font-family: Crotah free version;color: white;">Drinking Coffee Has Several Health Benefits</p>
+      <p style="color: white;">Many of the nutrients in coffee beans make their way into the finished brewed drink. Packed with antioxidants and vitamins such as riboflavin, magnesium, and potassium, coffee can help to lessen depression, promote a healthy heart, and reduce the risk of developing type 2 diabetes, Parkinson’s disease, Alzheimer’s disease, liver disease, and liver cancer.</p>
+      
+    </div>
+      
+  
+  
+</section>
+
+<script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar").style.padding = "30px 10px";
+      document.getElementById("logo").style.fontSize = "25px";
+    } else {
+      document.getElementById("navbar").style.padding = "80px 10px";
+      document.getElementById("logo").style.fontSize = "35px";
+    }
+  }
+  </script>
+
+
+
+</body>
+</html>

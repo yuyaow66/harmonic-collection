@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Facts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #75460d;
+  background-size: cover;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #75460d;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: rgb(215, 208, 197);
+  text-align: center;
+  font-family: Crotah free version;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #311c02;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="#default" id="logo"><i>Random Fact About Coffee</i></a>
+  <div id="navbar-right">
+    <a class="active" href="index.html">Home</a>
+      
+      
+    </div>
+  </div>
+</div>
+
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+
+    
+    
+      <p style="color: white;">1. COFFEE BEANS ARE ACTUALLY THE SEEDS FROM THE COFFEE PLANT’S BERRY-LIKE FRUITS. </p> 
+         <p style="color: white;">2. COFFEE BEANS ARE GREEN WHEN THEY ARE PICKED.</p>
+      <p style="color: white;">3. BRAZIL IS THE LARGEST COFFEE PRODUCER IN THE WORLD.</p>
+      <p style="color: white;">4. COFFEE WAS FIRST DISCOVERED IN THE 15TH CENTURY—WITH THE FINDING CREDITED TO SOME ENERGETIC GOATS!</p>
+
+      <p style="color: white;">5. THERE ARE TWO MAIN TYPES OF COFFEE BEANS, ARABICA AND ROBUSTA, BUT OTHER SPECIALTY BEANS EXIST.</p>
+      <p style="color: white;">6. THE WORLD’S FIRST COFFEE HOUSE OPENED IN TURKEY IN 1475.</p>
+      <p style="color: white;">7. STARBUCKS REIGNS SUPREME AS THE LARGEST COFFEE COMPANY IN THE WORLD.</p>
+
+    </div>
+      
+  
+  
+</section>
+
+<script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar").style.padding = "30px 10px";
+      document.getElementById("logo").style.fontSize = "25px";
+    } else {
+      document.getElementById("navbar").style.padding = "80px 10px";
+      document.getElementById("logo").style.fontSize = "35px";
+    }
+  }
+  </script>
+
+
+
+</body>
+</html>

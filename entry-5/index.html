@@ -1,119 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Think Coffee</title>
-<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-* {
-  box-sizing: border-box;
-}
+* {box-sizing: border-box;}
 
-body {
-  font-family: subway ticker;
-}
-
-/* Style the header */
-header {
-  background-color: #553c27;
-  padding: 20px;
-  text-align: center;
-  font-size: 35px;
-  color: rgb(227, 111, 10);
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 20%;
-  height: 1000px; /* Don't forget the semicolon here */
-  background-color:antiquewhite ;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: right;
-  padding: 20px;
-  width: 80%;
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
   background: url(cofgif.gif);
-  height: 1000px; /* only for demonstration, should be removed */
+  background-size: cover;
 }
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+#navbar {
+  overflow: hidden;
+  background-color: #75460d;
+  padding: 90px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
 }
 
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
+#navbar a {
+  float: left;
+  color: rgb(215, 208, 197);
   text-align: center;
+  font-family: Crotah free version;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #311c02;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
   color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #navbar-right {
+    float: none;
   }
 }
 </style>
 </head>
 <body>
 
-<header>
-  <h2>Think Coffee</h2>
-</header>
+<div id="navbar">
+  <a href="#default" id="logo"><i>Think Coffee</i></a>
+  <div id="navbar-right">
+    <a class="active" href="https://yuyaow66.github.io/harmonic-collection/index.html">Home</a>
+      <a href="imagelinks.html">Photos</a>
+      
+    </div>
+  </div>
+</div>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="imagelinks.html">Images</a></li>
-      <li><a href="#">Stuff</a></li>
-      <li><a href="#">Favorite Part in the Cafe</a></li>
-    </ul>
-  </nav>
-  
-  <article>
-    <h1>In through the Out door</h1>
-    <p> 
-      <p></p>
-      <p>We were in this small cafe on our morning </p> 
-         <p>tea break</p>tea break
-      <p>Me and some of my work colleagues</p>
-      <p>Someone inquired after my wellbeing</p>
-      <p><i>How I was</i></p>
-      <p>I motioned with my hand as if to say 'So, so"</p>
-      <p>Then I said</p>
-      <p>"I'm still a bit shaky"</p>
-      <p>'Why", they said, "what happened to you ?"</p>
-     <p>I answered "I was in a car crash last night"</p> 
-      <p>"What!!!", they all said really concerned, "you shouldn't have come to work today, you should have stayed at home... you might be in </p>
-       <p> shock!"</p>
-      <p>Then I said 'It was only a dream'. I went on "Yea, I dreamt I was in a car </p>
-        <p>crash</p>
-     <P>I was driving down this terrible winding </P> 
-         <p>mountain road </p>
-      <p>Like something you'd get over in Italy </p>
-     <p>It was like a spiral staircase, going round and </p> 
-         <p>round</p>
-      <p>All these terrible bends</p>
-      <p>And the car it's getting faster and I know I'm </p>
-        <p>starting to lose control</p> 
+<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
+
+    <h1 style="font-family: Crotah free version;color: white;"> Poem to Read</h1>
+      <h2 style="color: white;" >through the Out door</h2> 
+    
+      <p style="color: white;">We were in this small cafe on our morning </p> 
+         <p style="color: white;">tea break</p>
+      <p style="color: white;">Me and some of my work colleagues</p>
+      <p style="color: white;">Someone inquired after my wellbeing</p>
+      <p style="color: white;"><i>How I was</i></p>
+      <p style="color: white;">I motioned with my hand as if to say 'So, so"</p>
+      <p style="color: white;">Then I said</p>
+      <p style="color: white;">"I'm still a bit shaky"</p>
+      <p style="color: white;">'Why", they said, "what happened to you ?"</p>
+     <p style="color: white;">I answered "I was in a car crash last night"</p> 
+      <p style="color: white;">"What!!!", they all said really concerned, "you shouldn't have come to work today, you should have stayed at home... you might be in </p>
+       <p style="color: white;"> shock!"</p>
+      <p style="color: white;">Then I said 'It was only a dream'. I went on "Yea, I dreamt I was in a car </p>
+        <p style="color: white;">crash</p>
+     <P style="color: white;">I was driving down this terrible winding </P> 
+         <p style="color: white;">mountain road </p>
+      <p style="color: white;">Like something you'd get over in Italy </p>
+     <p style="color: white;">It was like a spiral staircase, going round and </p> 
+         <p style="color: white;">round</p>
+      <p style="color: white;">All these terrible bends</p>
+      <p style="color: white;">And the car it's getting faster and I know I'm </p>
+        <p style="color: white;">starting to lose control</p> 
+    </div>
       
   
-  </article>
+  
 </section>
+
+<script>
+  // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar").style.padding = "30px 10px";
+      document.getElementById("logo").style.fontSize = "25px";
+    } else {
+      document.getElementById("navbar").style.padding = "80px 10px";
+      document.getElementById("logo").style.fontSize = "35px";
+    }
+  }
+  </script>
 
 
 

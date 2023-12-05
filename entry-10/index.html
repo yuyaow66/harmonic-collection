@@ -12,74 +12,7 @@
     }
 </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-#mySidenav a {
-  position: absolute;
-  left: -80px;
-  transition: 0.3s;
-  padding: 30px;
-  width: 100px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 0 5px 5px 0;
-}
 
-#mySidenav a:hover {
-  left: 0;
-}
-
-#about {
-  top: 200px;
-  background-color: #46d5dc;
-}
-
-#blog {
-  top: 400px;
-  background-color: #5e946c;
-}
-
-#projects {
-  top:600px;
-  background-color: #533109;
-}
-
-#contact {
-  top: 850px;
-  background-color: #120f5e
-}
-</style>
-<style>
-  body {margin:0;}
-  .flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-  
-  .icon-bar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-  }
-  
-  .icon-bar a {
-    float: left;
-    width: 20%;
-    text-align: center;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
-  }
-  
-  .icon-bar a:hover {
-    background-color: #000;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
-  </style>
   <body>
   
   <div class="icon-bar">
@@ -91,18 +24,21 @@
 </head>
 <body>
 
-
-<div id="mySidenav" class="sidenav">
-  <a href="#" id="about">About</a>
-  <a href="" id="blog">pictures</a>
-  <a href="#" id="projects">random facts</a>
-  <a href="#" id="contact">music</a>
-</div>
-
-<div style="margin-left:200px; color:beige">
-  <h2>What Is Inside This Coffee Shop</h2>
-  <p>Hover over the buttons in the left side navigation to open them.</p>
-</div>
+  
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Web form</title>
+      <div style="position: absolute; top:400px; left: 400px">
+      <form action="/url" method="GET">
+          <label style="font-family: Crotah free version; color: rgb(84, 53, 2); font-size: larger;">
+              Did you enjoy this website? Write down your comments:
+              <input type="text" name="username" minlength="3" maxlength="10000" required>
+          </label>
+          <button type="submit" style="font-family: Creamy Sugar;color: rgb(35, 140, 231) ;">Submit</button>  
+      </form></div>
+  </body>
+  </html>
    
 </body>
 </html> 
