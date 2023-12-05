@@ -1,160 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body {margin:0;}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.icon-bar {
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-
-.icon-bar a {
-  float: left;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.active {
-  background-color: #04AA6D;
-}
+    
+    body {
+        background: url(background.gif) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 </style>
-<body>
-
-<div class="icon-bar">
-  <a class="active" href="https://yuyaow66.github.io/harmonic-collection/index.html"><i class="fa fa-home"></i></a> 
-  
-</div>
-
-</body>
-</html> 
-
-   
-
-
- <!DOCTYPE html>
-<html lang="en">
 <head>
-<title>Irish Coffee</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-* {
-  box-sizing: border-box;
-}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;}
-
-body {
-  font-family: subway ticker;
-}
-
-/* Style the header */
-header {
-  background-color: #14b0ed;
-  padding: 20px;
-  text-align: center;
-  font-size: 35px;
-  color: rgb(63, 115, 246);
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 30px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
 }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 20%;
-  height: 1000px; /* Don't forget the semicolon here */
-  background-color:rgb(201, 96, 235) ;
-  padding: 20px;
+#mySidenav a:hover {
+  left: 0;
 }
 
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-.flex-container {
-  display: flex;
-  flex-wrap: nowrap;}
-
-article {
-  float: right;
-  padding: 20px;
-  width: 80%;
-  background: url(back.gif);
-  background-size: cover;
-
-  height: 1000px; /* only for demonstration, should be removed */
+#about {
+  top: 200px;
+  background-color: #46d5dc;
 }
 
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+#blog {
+  top: 400px;
+  background-color: #5e946c;
 }
 
-/* Style the footer */
+#projects {
+  top:600px;
+  background-color: #533109;
+}
 
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+#contact {
+  top: 850px;
+  background-color: #120f5e
 }
 </style>
+
+
+  
+  </body>
 </head>
 <body>
 
-<header>
-  <h2><I>Irish Coffee</I></h2>
-</header>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="https://www.timeout.com/newyork/restaurants/best-coffee-shops-in-new-york">Cafe to Explore</a></li>
-      <li><a href="index2.html">Do you know what's in Irish coffee?</a></li>
-      <li><a href="Index3.html">Make your own Irish Coffee</a></li>
-    </ul>
-  </nav>
+<div id="mySidenav" class="sidenav">
+  <a href="about espresso.html" id="about">About</a>
+  <a href="index2.html" id="blog">Make A Cup of Espresso</a>
+ 
   
-  <article>
-    <h1><p style="color:white">About Irish Coffee</h1>
-    
-    <p style="color: white" >
-      The Irish Coffee may not be the first coffee drink with alcohol, but this cocktail has become one of the most famous. Combining coffee with Irish whiskey, brown sugar and lightly whipped cream, the Irish Coffee is a hot, creamy classic that can wake you up on cold mornings or keep you going after a long night. </i>
-      <p style="color: white">There are many tall tales about the Irish Coffee’s origins. The most credible version attributes the cocktail to Joe Sheridan, the head chef of the restaurant at the Foynes Flying Boat terminal in County Limerick in the early 1940s, who wanted to add a little local hospitality to the establishment’s coffee. Legend has it that when he first served it and was asked if it was Brazilian coffee, Sheridan cheekily replied that it was “Irish coffee.”</p>
-      <p style="color: white">The drink was later made famous by Pulitzer Prize-winning "San Francisco Chronicle" columnist Stanton Delaplane, who frequented the Buena Vista Cafe in San Francisco during the 1950s. After tasting one in Ireland, he and the bar’s owner, Jack Koeppler, attempted to recreate the warming elixir. They succeeded, and Delaplane wrote about the drink in his column, which was read widely across the States. This helped to earn the drink a following at Buena Vista and beyond. On a busy day, the San Francisco bar can serve more than 2,000 Irish Coffees. With its comforting blend of whiskey, caffeine and cream, it’s easy to see the drink’s appeal.</p>
-      <p style="color: white">According to bartending legend Dale DeGroff, the Irish Coffee should not be a large drink. He says that bars, particularly in America, go too big, which ruins the balance of an otherwise great cocktail. "Choose the vessel wisely," he says. "The small bell-shaped glass that Libbey has been providing to The Buena Vista for decades is a nice size at six ounces."</p>
-      <p style="color: white">Then you can build your drink right in the glass, starting with the whiskey, sugar and coffee, and topping it with a dose of thick cream. "At The Buena Vista Cafe, the concoction is finished with a white cloud of hand-whipped cream," says DeGroff. "This topping serves two important purposes: It creates the drink’s signature dramatic black-and-white look, and the unsweetened coolness of the cream tempers the alcohol and the hot, sugary coffee." If you’d like to decorate that gorgeous white head, you can optionally add a dusting of fresh cinnamon or nutmeg for a fragrant garnish.</p>
-      <p style="color: white">"You also don’t need a giant pour of Irish whiskey," says DeGroff. "Delaplane and Koeppler’s recipe calls for a one-ounce shot. I know it seems stingy, but do not be put off—it’s actually good news. That liquor, along with three-and-a-half ounces of steaming-hot sweetened coffee and three-quarters of an inch of lightly whipped cream, is so delicious you’ll want to consume at least two more." Liquor.com’s recipe below calls for slightly more than that, but it's still not enough to knock you off your bar stool.</p>
-      <p style="color: white"><a href="https://www.liquor.com/recipes/irish-coffee-2/">resource website:https://www.liquor.com/recipes/irish-coffee-2/</a>
-      </p>
-
-  </article>
-</section>
-
-<footer>
-
-</footer>
 
 
-
-    
+  <div style="margin-left:500px; color:rgb(244, 243, 248); font-size: larger;">
+  <h2>About Espresso</h2>
+  <p>Click on the left buttons to see what's hidden</p>
+</div>
+   
+</body>
+</html> 
